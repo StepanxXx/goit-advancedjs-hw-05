@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src", // Вказує кореневу директорію для вихідних файлів TypeScript.
+    "outDir": "./dist", // Вказує директорію для збереження скомпільованих файлів JavaScript.
+    "allowJs": false, // Не дозволяти підключати JavaScript-файли до збірки.
+    "allowSyntheticDefaultImports": true, // Дозволяти синтетичні default-імпорти для сумісності.
+    "emitDecoratorMetadata": true, // Генерувати метадані для декораторів під час компіляції.
+    "esModuleInterop": true, // Увімкнути сумісність імпортів із CommonJS-модулями.
+    "experimentalDecorators": true, // Увімкнути експериментальну підтримку декораторів.
+    "lib": ["dom", "ES2021"], // Використовувати стандартні бібліотеки JavaScript рівня ES2021 та DOM API.
+    "module": "es2020", // Генерувати модулі у форматі ES2020.
+    "moduleResolution": "node", // Розв'язувати модулі за правилами Node.js.
+    "ignoreDeprecations": "6.0", // Тимчасово приховує попередження про застарілі опції
+    "preserveConstEnums": true, // Не замінювати const enum на значення під час компіляції.
+    "skipLibCheck": true, // Пропускати перевірку типів у сторонніх бібліотеках.
+    "strictNullChecks": true, // Строго перевіряти значення null і undefined.
+    "target": "es2019", // Компілювати код до стандарту ES2019.
+    "sourceMap": true
+  },
+  "include": ["**/*.ts"]
+}
